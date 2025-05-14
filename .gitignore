@@ -18,3 +18,14 @@ Cargo.lock
 
 # Ignore bash history file
 .bash_history
+
+# Ignore contest packages
+/a[bghr]c[0-9]*
+/adt_*
+/joi*
+/practice
+/abs
+/typical90
+/math-and-algorithm
+/tessoku-book
+/.cache

@@ -1,7 +1,6 @@
-# atcoder-rust-vscode-devcontainers
+# atcoder
 
-Template for VS Code Dev Containers to try [AtCoder](https://atcoder.jp/) in Rust 🦀
-
+Try [AtCoder](https://atcoder.jp/) 🐜 in Rust 🦀
 
 ## How to try?
 

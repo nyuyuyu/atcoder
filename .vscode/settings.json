@@ -21,7 +21,7 @@
     "terminal.integrated.env.linux": {
         "PATH": "${workspaceFolder}/bin:${env:PATH}"
     },
-    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.linux": "fish",
     "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "bash",
@@ -29,6 +29,13 @@
                 "HISTFILE": "${workspaceFolder}/.bash_history",
             },
             "icon": "terminal-bash",
+            "overrideName": true
+        },
+        "fish": {
+            "path": "fish",
+            "env": {
+                "XDG_DATA_HOME": "${workspaceFolder}/.local/share",
+            },
             "overrideName": true
         }
     }

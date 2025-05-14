@@ -21,7 +21,8 @@
 		"ghcr.io/devcontainers/features/rust:1": {
 			"version": "1.70.0",
 			"profile": "default"
-		}
+		},
+		"ghcr.io/meaningful-ooo/devcontainer-features/fish:2": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

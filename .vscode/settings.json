@@ -1,0 +1,35 @@
+{
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    },
+    "rust-analyzer.cargo.buildScripts.overrideCommand": [
+        "cargo",
+        "check",
+        "--quiet",
+        "--workspace",
+        "--message-format=json-diagnostic-rendered-ansi",
+        "--all-targets"
+    ],
+    "rust-analyzer.check.overrideCommand": [
+        "cargo",
+        "check",
+        "--quiet",
+        "--workspace",
+        "--message-format=json-diagnostic-rendered-ansi",
+        "--all-targets"
+    ],
+    "terminal.integrated.env.linux": {
+        "PATH": "${workspaceFolder}/bin:${env:PATH}"
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "env": {
+                "HISTFILE": "${workspaceFolder}/.bash_history",
+            },
+            "icon": "terminal-bash",
+            "overrideName": true
+        }
+    }
+}
